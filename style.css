@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primaryColor:#0077cc;
+    --secondaryColor: #eef7ff;
+}
+.primaryColor{
+    color: var(--primaryColor);
+}
+.primaryBgColor{
+    background-color: var(--primaryColor);
+}
+.secondaryBgColor{
+    background-color: var(--secondaryColor);
+}
+.navbar{
+    background: #f8f8f8;
+    padding: 1rem 1.5rem;
+}
+.sideBarContainer{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.364);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    font-weight: 500;
+}
+.sideBarContainer>li a:hover{
+    color: var(--primaryColor);
+}
+#sideBarMenu{
+    display: none;
+}
+.itemContainer{
+    gap: 18px;
+}
+.itemContainer>li a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.itemContainer>li a:hover{
+    color: var(--primaryColor);
+}
+.logo{
+    color: var(--primaryColor);
+}
+@media only screen and (max-width:455px) {
+    .itemContainer>li{
+        font-size: 13px;
+    }
+ 
+}
+@media only screen and (max-width:800px) {
+    .hideNavbar{
+        display:none;
+    }
+    #sideBarMenu{
+        display: block;
+    }
+    .sideBarContainer{
+        width: 280px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game with code | Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Common.css">
+</head>
+
+<body>
+    <nav class="navbar disflex justify_spaceBetween align_item_center pos_Relative">
+        <h1 class="logo fontRoboto">Game with Code</h1>
+        <!-- create the side Bar -->
+        <div class="sideBarContainer disflex pos_Fixed pos_right_0 pos_top_0 flex_Direction_Column fullHeight disNone">
+            <li class="mr-25-top noneStyle_list ft-sz-2-em fontRoboto fullWidth_Parent cursor_pointer mr-15-left" id="closeSideBar"><img width="40px" src="Images/close.svg" alt=""></li>
+            <li class="mr-25-top noneStyle_list ft-sz-2-em fontRoboto fullWidth_Parent cursor_pointer "><a class="noneStyle_Text color_Black mr-15-left fullWidth_Parent " href="#">Home</a></li>
+            <li class="mr-25-top noneStyle_list ft-sz-2-em fontRoboto fullWidth_Parent cursor_pointer "><a class="noneStyle_Text color_Black mr-15-left fullWidth_Parent " href="#">Project</a></li>
+            <li class="mr-25-top noneStyle_list ft-sz-2-em fontRoboto fullWidth_Parent cursor_pointer "><a class="noneStyle_Text color_Black mr-15-left fullWidth_Parent " href="#">Source code</a></li>
+            <li class="mr-25-top noneStyle_list ft-sz-2-em fontRoboto fullWidth_Parent cursor_pointer "><a class="noneStyle_Text color_Black mr-15-left fullWidth_Parent " href="#">Contact</a></li>
+        </div>
+        <div class="itemContainer mr-10-right disflex fontRoboto ">
+
+            <li class="mr-15-right noneStyle_list cursor_pointer hideNavbar"><a class="noneStyle_Text" href="#">Home</a></li>
+            <li class="mr-15-right noneStyle_list cursor_pointer hideNavbar"><a class="noneStyle_Text" href="#">Project</a></li>
+            <li class="mr-15-right noneStyle_list cursor_pointer hideNavbar"><a class="noneStyle_Text" href="#">Source Code</a>
+            </li>
+            <li class="mr-15-right noneStyle_list cursor_pointer hideNavbar"><a class="noneStyle_Text" href="#">Contact</a></li>
+            <li class="mr-15-right noneStyle_list cursor_pointer " id="sideBarMenu"><img width="40"
+                    src="Images/menu.svg" alt=""></li>
+
+        </div>
+    </nav>
+    <img width="100%" height="590" src="Images/top-coding-projects.png" alt="">
+</body>
+ <script src="Navbar.js"></script>
+</html>
